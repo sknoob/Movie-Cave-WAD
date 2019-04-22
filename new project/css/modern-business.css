@@ -22,3 +22,106 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.label {
+  font-size: 16px;
+  /*color: #555;*/
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.radio-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  /*height: 12px;
+  width: 13px;*/
+  border-radius: 2px;
+  background-color: #ebebeb;
+  border: 1px solid #ccc;
+  font-family: Material-Design-Iconic-Font;
+  color: #000;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.input-group-icon {
+  position: relative;
+}
+
+.input--style-4 {
+  line-height: 50px;
+  background: #fafafa;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.zmdi {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex-grid{
+  -webkit-box-ordinal-group:3;
+  -ms-flex-order:2;
+  order:2;
+  -ms-flex-preferred-size:50%;
+  flex-basis:50%;
+  /*background-color:#fff1b0;*/
+}
+
+.flex-grid.mobile-top{
+  -webkit-box-ordinal-group:2;
+  -ms-flex-order:1;
+  order:1;
+  -ms-flex-preferred-size:100%;
+  flex-basis:100%;
+  padding-bottom:50px
+}
+
+.social-icons{
+  margin:0;
+  padding:0;
+  font-size:14px
+}
+.social-icons li{
+  display:inline-block;margin:0 1.2em;vertical-align:middle
+}
+.social-icons a{display:block;background-position:0 0;background-repeat:no-repeat}
+.social-icons a:hover{opacity:1}
+.social-icons a:hover img{transition:all .3s ease;-webkit-transform:scale(1.5);transform:scale(1.5);opacity:0}
+.social-icons img{-webkit-transform:scale(1);transform:scale(1);opacity:1}
