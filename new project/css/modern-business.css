@@ -140,3 +140,16 @@ body {
 .social-icons a:hover{opacity:1}
 .social-icons a:hover img{transition:all .3s ease;-webkit-transform:scale(1.5);transform:scale(1.5);opacity:0}
 .social-icons img{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+
+#textFname:invalid{
+  background-color: #ff7260;
+}
+#textLname:invalid{
+  background-color: #ff7260;
+}
+#email:invalid{
+  background-color: #ff7260;
+}
+#password:invalid{
+  background-color: #ff7260;
+}

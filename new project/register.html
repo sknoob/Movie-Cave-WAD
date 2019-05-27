@@ -18,7 +18,6 @@
 
     <title> Register your account - MovieCave</title>
 
-
 </head>
 
 <body>
@@ -70,12 +69,12 @@
                 <div class="control-group form-group">
                     <div class="controls">
                         <label>First Name</label>
-                        <input type="text" class="form-control" id="text" required="" data-validation-required-message="Please enter your first name.">
+                        <input type="text" class="form-control" id="textFname" placeholder="First Name" required pattern="([a-z]|[A-Z])+" data-validation-required-message="Please enter your first name." >
                         <p class="help-block"></p>
                     </div>
                     <div class="controls">
                         <label>Last Name</label>
-                        <input type="text" class="form-control" id="text" required="" data-validation-required-message="Please enter your last name.">
+                        <input type="text" class="form-control" id="textLname" placeholder="Last Name" required pattern="([a-z]|[A-Z])+" data-validation-required-message="Please enter your last name.">
                         <p class="help-block"></p>
                     </div>
 
@@ -115,18 +114,18 @@
 
                     <div class="controls">
                         <label><br/>Email</label>
-                        <input type="email" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required pattern="(.+@ucp.edu.pk)|(^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$)" data-validation-required-message="Please enter your email address.">
                         <p class="help-block"></p>
                     </div>
                     <div class="controls">
                         <label>Password</label>
-                        <input type="password" class="form-control" id="password" required="" data-validation-required-message="Please enter your password.">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required pattern="[0-9a-zA-Z]{6,}" data-validation-required-message="Please enter your password.">
                         <p class="help-block"></p>
                         <!--<a href="forgotpassword.html" id="forgot_password" tabindex="3"><p align="right">Forgot Password?</p></a>-->
                     </div>
                     <div class="controls">
                         <label>Repeat Password</label>
-                        <input type="password" class="form-control" id="repeat-password" required="" data-validation-required-message="Repeat your password.">
+                        <input type="password" class="form-control" id="repeat-password" placeholder="Password" required pattern="[0-9a-zA-Z]{6,}" data-validation-required-message="Repeat your password.">
                         <p class="help-block"></p>
                         <!--<a href="forgotpassword.html" id="forgot_password" tabindex="3"><p align="right">Forgot Password?</p></a>-->
                     </div>
