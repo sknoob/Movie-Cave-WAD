@@ -64,12 +64,12 @@
                 <div class="control-group form-group">
                     <div class="controls">
                         <label>Enter your Email</label>
-                        <input type="email" class="form-control" id="email" required="" data-validation-required-message="Please enter your email address.">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required pattern="(.+@ucp.edu.pk)|(^[a-z0-9](\.?[a-z0-9]){5,}@((g(oogle)?mail)|(hotmail|yahoo|outlook))?\.com$)" data-validation-required-message="Please enter your email address.">
                         <p class="help-block"></p>
                      </div>
                     <div class="controls">
                         <label>Enter your Password</label>
-                        <input type="password" class="form-control" id="password" required="" data-validation-required-message="Please enter your password.">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required pattern="[0-9a-zA-Z]{6,}" data-validation-required-message="Please enter your password.">
                         <p class="help-block"></p>
                         <a href="forgotpassword.html" id="forgot_password" tabindex="3"><p align="right">Forgot Password?</p></a>
                     </div>
