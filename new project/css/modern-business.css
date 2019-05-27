@@ -153,3 +153,9 @@ body {
 #password:invalid{
   background-color: #ff7260;
 }
+#Name:invalid{
+  background-color: #ff7260;
+}
+#phone:invalid{
+  background-color: #ff7260;
+}
