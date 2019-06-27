@@ -132,7 +132,7 @@ session_start();
 
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="trailerindex.php" class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>

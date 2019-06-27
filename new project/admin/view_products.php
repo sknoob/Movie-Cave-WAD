@@ -1,4 +1,4 @@
-<div class="row">
+     <div class="row">
     <div class="col-sm-12">
         <h1>Movies</h1>
         <table class="table table-striped">
