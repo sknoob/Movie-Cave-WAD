@@ -17,7 +17,7 @@ require_once "db_connection.php";
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Old+Standard+TT">
-    <title>TechBox Admin Panel</title>
+    <title>MovieCave Admin Panel</title>
     <style>
         * {
             font-family: 'Old Standard TT', serif;
@@ -33,12 +33,12 @@ require_once "db_connection.php";
         <ul class="list-unstyled components">
             <li>
                 <a href="index.php?insert_product">
-                    <i class="fas fa-plus"></i> Insert New Product
+                    <i class="fas fa-plus"></i> Insert New Movies
                 </a>
             </li>
             <li>
                 <a href="index.php?view_products">
-                    <i class="fas fa-sitemap"></i> View All Products
+                    <i class="fas fa-sitemap"></i> View All Movies
                 </a>
             </li>
             <li>
@@ -50,19 +50,6 @@ require_once "db_connection.php";
                 <a href="index.php?view_categories">
                     <i class="fas fa-band-aid"></i> View All Categories
                 </a>
-            </li>
-            <li>
-                <a href="index.php?insert_brand">
-                    <i class="fas fa-plus"></i> Insert New Brand
-                </a>
-            </li>
-            <li>
-                <a href="index.php?view_brands">
-                    <i class="fas fa-toolbox"></i> View All Brands</a>
-            </li>
-            <li>
-                <a href="index.php?view_customers">
-                    <i class="fa fa-user-tie"></i> View Customers</a>
             </li>
             <li>
                 <a href="index.php?view_orders">
