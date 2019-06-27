@@ -14,7 +14,7 @@ function getCats(){
     while($row = mysqli_fetch_assoc($getCatsResult)){
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
-        echo "<li><a class='nav-link'  href='index.php?cat=$cat_id'>$cat_title</a></li>";
+        echo "<li><a class='nav-link'  href='movindex.php?cat=$cat_id'>$cat_title</a></li>";
     }
 }
 
